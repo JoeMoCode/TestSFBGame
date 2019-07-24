@@ -1,0 +1,28 @@
+{
+    "name": "skill",
+    "version": "1.0.0",
+    "description": "Package to track necessary node modules for skill execution.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "compile": "npx tsc",
+        "clean": "npx rimraf ./dist"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@alexa-games/sfb-f": "^1.0.0",
+        "@alexa-games/sfb-skill": "^1.0.0",
+        "ask-sdk-core": "^2.5.2",
+        "ask-sdk-dynamodb-persistence-adapter": "^2.5.2",
+        "ask-sdk-model": "^1.15.1",
+        "fast-csv": "^3.0.1"
+    },
+    "devDependencies": {
+        "@types/mocha": "^5.2.6",
+        "@types/node": "^10.14.6",
+        "rimraf": "^2.6.3",
+        "typescript": "^3.5.1",
+        "yarn": "^1.16.0"
+    }
+}
